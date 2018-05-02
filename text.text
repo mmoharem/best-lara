@@ -1,0 +1,6 @@
+1-create factory
+2- create seeder
+3- goto DatabaseSeeder at the run() and add
+    $this->call(TodosTableSeeder::class);
+4- goto terminal and run 
+    $php artisan db:seed
